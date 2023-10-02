@@ -1,0 +1,56 @@
+/* En styles.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
+
+/* Estilo para la tabla */
+.table-usuario {
+  width: 75%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Estilo para las celdas de encabezado */
+.table-usuario th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para las celdas de datos */
+.table-usuario td {
+  padding: 8px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para las filas impares (opcional) */
+.table-usuario tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo para las filas al pasar el mouse sobre ellas (opcional) */
+.table-usuario tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Estilos para el botón con la clase "boton" */
+.boton {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  padding: 10px 20px; /* Espaciado interior del botón */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  font-size: 16px; /* Tamaño del texto del botón */
+}
+
+/* Estilo cuando se pasa el mouse sobre el botón */
+.boton:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
+

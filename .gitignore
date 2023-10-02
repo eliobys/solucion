@@ -527,3 +527,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+Presentacion/presentacion/src/app/app.component.html

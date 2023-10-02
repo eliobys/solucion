@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import  {HttpClientModule } from '@angular/common/http';
 
-import { AppComponent } from './app.component';
+import { UsuarioTable} from './app.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    UsuarioTable
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [UsuarioTable]
 })
 export class AppModule { }
